@@ -11,7 +11,7 @@
 }
 .news-card:hover{
     cursor: default;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .news-card > img{
