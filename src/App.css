@@ -1,0 +1,31 @@
+.app{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,25rem));
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem 1rem;
+  position: relative;
+}
+
+.dark-mode{
+  --main-bg-color: #292929;
+  --main-card-color: #1e1d1d;
+  --main-text-color: #eae6e6;
+}
+
+.app > button{
+  font-size: medium;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.5rem;
+  background-color: powderblue;
+  border: none;
+  border-radius: 0.8rem;
+}
+.app > button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
