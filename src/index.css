@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  font: Inter, sans-serif;
+}
+
 :root{
   --main-bg-color: #f6f0f0;
   --secondary-bg-color: #292929;
