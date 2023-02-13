@@ -4,19 +4,12 @@
   box-sizing: border-box;
 }
 
-html{
-  font: Inter, sans-serif;
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root{
   --main-bg-color: #f6f0f0;
-  --secondary-bg-color: #292929;
   --main-text-color: #000000;
-  --secondary-text-color: #8de5af;
   --main-card-color: #ffffff;
-  --secondary-card-color: #1e1d1d;
-  
-  /* --main-bg-color: #292929;
-  --main-card-color: #1e1d1d;
-  --main-text-color: #8de5af; */
 }
